@@ -1,17 +1,360 @@
-<?php
-/**
- * Front to the WordPress application. This file doesn't do anything, but loads
- * wp-blog-header.php which does and tells WordPress to load the theme.
- *
- * @package WordPress
- */
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>光栅板生产厂家-3D光栅画制作-广告变画-立体技术培训-装饰画-3d立体印刷厂</title>
+<meta name="description" content="光栅板、光栅立体画、变画、立体广告画、立体技术培训、3D装饰画生产制作公司、3D中堂画、3D玄关画、3D背景墙影视墙、3D地板、3D天花板、立体画UV机制作、3d印刷厂家。河南卓特立体科技有限公司产品:1.2m*2.4m和2m*3m的18(变)线、25 线、32线、42线光栅板。用于广告、婚纱、装饰画等领域，二变、多变、旋转、缩放、动画、立体加多变、立体加缩放旋转等立体画技术。" />
+<meta name="keywords" content="光栅板,3D光栅画,3D光栅材料,立体技术培训,立体装饰画材料,立体光栅画,光栅画" />
+<link href="/templets/shuangyu/style/style.css" rel="stylesheet" type="text/css">
+<link href="/templets/shuangyu/style/common.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/templets/shuangyu/js/jquery.js"></script>
+<script type="text/javascript" src="/templets/shuangyu/js/iepngfix_tilebg.js"></script>
+<script type="text/javascript" src="/templets/shuangyu/js/jquery-1.js"></script>
+<script type="text/javascript" src="/templets/shuangyu/js/lang.js"></script>
+</head>
 
-/**
- * Tells WordPress to load the WordPress theme and output it.
- *
- * @var bool
- */
-define('WP_USE_THEMES', true);
+<body>
+﻿<script type="text/javascript" src="/templets/shuangyu/js/lang.js"></script>
+<script type="text/javascript" src="/templets/shuangyu/js/TabShow.js"></script>
 
-/** Loads the WordPress Environment and Template */
-require( dirname( __FILE__ ) . '/wp-blog-header.php' );
+<!--top start -->
+<div class="top">
+<div class="TopInfo"><span class="link">选择语言：<a href="http://www.guangshanban.com/cn">简体中文</a> |
+
+
+ <a href="http://www.guangshanban.com/en">English</a></span>
+</div>
+<div class="clearfix"></div>
+<div class="TopLogo">
+<div class="logo"><a href="http://www.guangshanban.com"><img src="/templets/shuangyu/images/logo_en.png" alt="光栅板厂家"></a></div>
+<div class="tel">
+<p class="telW">24小时客服热线</p>
+<p class="telN">+86-17737582757</p>
+</div>
+</div>
+
+
+</div>
+<!--top end-->
+<!--nav start-->
+
+<!--Head Menu Start-->
+
+<div class="menucss">
+<div class="menu">
+<ul>
+<li><a class="hide" href="http://www.guangshanban.com">网站主页</a></li>
+
+
+
+<li><a class="hide" href="/cn/product/">光栅板产品介绍</a>
+</li>
+<li><a class="hide" href="/cn/about/">光栅板厂家介绍</a>
+</li>
+<li><a class="hide" href="/cn/lianxi/">光栅板联系方式</a>
+</li>
+<li><a class="hide" href="/cn/jishu/">光栅板技术支持</a>
+</li>
+
+<li></li>
+
+
+
+</ul>
+<div class="clear"> </div>
+</div>
+</div>
+
+
+<!--Head Menu End-->
+
+<div class="clearfix"></div>
+<!--nav end-->
+<div id="wrapper">
+
+<!--head start-->
+<div id="head">
+
+<!--focus start-->
+<div id="FocusBG">
+<div id="Focus">
+
+<div class="flashnews">
+   <!-- size: 980px * 300px -->
+   <script language='javascript'>
+linkarr = new Array();
+picarr = new Array();
+textarr = new Array();
+var swf_width=980;
+var swf_height=300;
+//文字颜色|文字位置|文字背景颜色|文字背景透明度|按键文字颜色|按键默认颜色|按键当前颜色|自动播放时间|图片过渡效果|是否显示按钮|打开方式
+var configtg='0xffffff|2|0x3FA61F|5|0xffffff|0xC5DDBC|0x000033|2|3|1|_blank';
+var files = "";
+var links = "";
+var texts = "";
+//这里设置调用标记
+linkarr[1] = "/plus/view.php?aid=5";
+picarr[1]  = "/uploads/allimg/180824/1-1PR4161AT28-lp.jpg";
+textarr[1] = "";
+linkarr[2] = "/plus/view.php?aid=4";
+picarr[2]  = "/uploads/allimg/180824/1-1PR4162142108-lp.jpg";
+textarr[2] = "";
+linkarr[3] = "/plus/view.php?aid=3";
+picarr[3]  = "/uploads/allimg/180824/1-1PR4162439353-lp.jpg";
+textarr[3] = "";
+linkarr[4] = "/plus/view.php?aid=2";
+picarr[4]  = "/uploads/allimg/180908/1-1PZQ03934424-lp.jpg";
+textarr[4] = "";
+linkarr[5] = "/plus/view.php?aid=1";
+picarr[5]  = "/uploads/allimg/180824/1-1PR4162631363-lp.jpg";
+textarr[5] = "";
+
+for(i=1;i<picarr.length;i++){
+if(files=="") files = picarr[i].replace("-lp","");
+else files += "|"+picarr[i].replace("-lp","");
+}
+for(i=1;i<linkarr.length;i++){
+if(links=="") links = linkarr[i];
+else links += "|"+linkarr[i];
+}
+for(i=1;i<textarr.length;i++){
+if(texts=="") texts = textarr[i];
+else texts += "|"+textarr[i];
+}
+document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ swf_width +'" height="'+ swf_height +'">');
+document.write('<param name="movie" value="/templets/default/images/bcastr3.swf"><param name="quality" value="high">');
+document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+document.write('<param name="FlashVars" value="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'&bcastr_config='+configtg+'">');
+document.write('<embed src="/templets/default/images/bcastr3.swf" wmode="opaque" FlashVars="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'&bcastr_config='+configtg+'&menu="false" quality="high" width="'+ swf_width +'" height="'+ swf_height +'" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />'); document.write('</object>');
+</script>
+  </div>
+
+</div>
+</div>
+<!--foncus end-->
+<div class="HeightTab clearfix"></div>
+
+</div>
+<!--head end-->
+<!--body start-->
+<div id="body">
+<!--MainBlock start-->
+<div class="MainBlock">
+<!--left start-->
+<div class="right">
+<div class="topic">
+<div class="TopicTitle"><a href="/cn/about/">光栅板厂家介绍</a></div>
+<div class="TopicMore"> <a href="http://www.guangshanban.com/cn/About"><img src="/templets/shuangyu/images/more.png"></a></div>
+</div>
+<div class="img"><a href="/cn/about/" target="_blank"><img src="/templets/shuangyu/images/sinokin.jpg" alt="光栅板生产厂家-3D光栅画制作-立体技术培训" height="100" width="200"></a></div><div class="txt ColorLink"><p>
+　　<a href="/cn/about/" target="_blank">详细>></a></p></div>
+<div class=" clearfix"></div>
+
+</div>
+<!--left end-->
+<div class="WidthTab2"></div>
+
+<!--right start-->
+<div class="left">
+<div class="TabBlock">
+<div class="menu">
+<ul>
+<li class="Tabs1"><a class="tab1" onmousemove="easytabs(1, 1);" onfocus="easytabs(1, 1);" title="光栅板厂家介绍" id="tablink1" href="/cn/about/">光栅板厂家介绍</a></li> 
+ 
+</ul>
+</div>
+<div style=" id="tabcontent1  "><table class="MBlockTable" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody >
+<p style="text-indent:3em;font-size:17px;">光栅板 光栅立体画厂家 立体广告画价格 3D装饰画批发 中堂画 立体婚纱 立体全景画 三维立体画制作 光栅材料厂家 3D立体光栅板材 3D立体画制作技术、设计、培训 3D立体科技 立体摄影器材 立体显示器 大型立体广告材料光栅板材 广州立体材料 立体光栅板材厂 立体广告材料 裸眼3D广告画</p>
+<p style="text-indent:3em;font-size:17px;">河南省卓特立体科技有限公司是国内外较早从事立体成像技术开发的单位之一,拥有柱镜光栅国家专利。是一家研究开发生产立体光栅材料的专业公司，产品有:1.2m*2.4m和2m*3m的18(变)线、25 线、32线、42线光栅板。</p>
+</tbody>
+</table>
+</div> 
+
+
+
+</div>
+</div>
+<!--right end-->
+
+<!--right2 start-->
+<div class="right2">
+<div class="topic">
+<div class="TopicTitle">公司优势</div>
+<div class="TopicMore"></div>
+</div>
+<div class="img">
+<p style="font-size:17px;">1、专业光栅板生产制造厂家。</p>
+<p style="font-size:17px;">2、拥有强大的制画技术人才。</p>
+<p style="font-size:17px;">3、生产的光栅板数据稳定。</p>
+<p style="font-size:17px;">4、透光高,韧性强,聚焦好。</p>
+<p style="font-size:17px;">5、生产光栅板适用范围广,3D立体画,变画效果栩栩如生。</p>
+</div>
+<div class=" clearfix"></div>
+</div>
+<!--right2 end-->
+<div class="clearfix"></div>
+</div>
+<!--MainBlock end-->
+
+<div class="HeightTab clearfix"></div>
+<!--ProductShow start-->
+<div class="ProductShow">
+<div class="topic">
+<div class="TopicTitle"> 公司产品</div>
+<div class="TopicMore"> <a href="/cn/product/"><img src="/templets/shuangyu/images/more.png"></a></div>
+</div>
+<div class="hjnavC">
+<div class="hjnavleft">
+<ul>
+
+<li><a href="/cn/product/">光栅板产品介绍</a></li> 
+  
+  </ul>
+  </div>
+<div class="hjnavcn">
+<div  class="hjone">
+<div class="albumblock"><div class="inner">
+<a href="/cn/product/guangshanbanjieshao.html" target="_blank" title="光栅板材介绍"><img src="/uploads/allimg/180928/1-1P92Q0463S49-lp.jpg" height="166" width="166"><div class="albumtitle">光栅板材介绍</div></a>
+</div></div>
+<div class="albumblock"><div class="inner">
+<a href="/cn/product/guangshanbanchangjia.html" target="_blank" title="光栅板厂家生产车间"><img src="/uploads/allimg/180928/1-1P92Q1063O21-lp.JPG" height="166" width="166"><div class="albumtitle">光栅板厂家生产车间</div></a>
+</div></div>
+<div class="albumblock"><div class="inner">
+<a href="/cn/product/penmoliti.html" target="_blank" title="立体光栅画制作喷墨"><img src="/uploads/allimg/180928/1-1P92Q12142553-lp.png" height="166" width="166"><div class="albumtitle">立体光栅画制作喷墨</div></a>
+</div></div>
+<div class="albumblock"><div class="inner">
+<a href="/cn/product/uvlitihua.html" target="_blank" title="立体光栅画制作——"><img src="/uploads/allimg/180928/1-1P92Q131121F-lp.jpg" height="166" width="166"><div class="albumtitle">立体光栅画制作——</div></a>
+</div></div>
+
+</div> 
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+<iframe height=600 width=980 src='http://player.youku.com/embed/XMzkyNzk4NjEwOA==' frameborder=0 'allowfullscreen'></iframe>
+<script type="text/javascript" src="/templets/shuangyu/js/h.js"></script>
+<!--ProductShow end-->
+<div class="HeightTab clearfix"></div>
+<!--links start-->
+<div id="Links">
+<span> </span>
+<li><a>友情链接：</a></li>
+		<li><a href='http://www.guangshanban.com/en' target='_blank'>lenticular printing</a> </li><li><a href='https://www.facebook.com/lenticularchina/' target='_blank'>lenticular china</a> </li><li><a href='https://www.instagram.com/lenticularlens/' target='_blank'>lenticular lens</a> </li><li><a href='https://www.youtube.com/channel/UCD3BRGT7YzNe_MFkjxz6Btw' target='_blank'>lenticular image</a> </li><li><a href='https://twitter.com/lenticularsheet' target='_blank'>lenticular sheet</a> </li><li><a href='https://www.linkedin.com/in/lenticular-manufacturer/' target='_blank'>lenticular manufacturer</a> </li>
+
+</div>
+<!--links end-->
+
+</div>
+<!--body end-->
+<div class="HeightTab clearfix"></div>
+
+
+﻿<!--footer start-->
+<div id="footer">
+<div class="inner">
+<div class="BottomNav">
+<a href="http://www.guangshanban.com">网站首页</a> | 
+
+<a href="/cn/product/">光栅板产品介绍</a> | 
+
+<a href="/cn/about/">光栅板厂家介绍</a> | 
+
+<a href="/cn/lianxi/">光栅板联系方式</a> | 
+
+<a href="/cn/jishu/">光栅板技术支持</a> | 
+
+</div>
+<div class="HeightTab"></div>
+<p><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1274973108'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/stat.php%3Fid%3D1274973108%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>Copyright 2020 <a href="" target="_blank">www.guangshanban.com</a>  All Rights Reserved </p>
+<p>Address:河南省鹤壁市淇滨区卫河路与东海路交叉口（深圳）电子工业园区3号楼</p>
+<p>Tel:+86-17737582757 E-Mail:tonyzhjf@gmail.com</p>
+<p>Built By <a href="/en" target="_blank">光栅板 </a>   </p>
+<script type="text/javascript" src="/Plugins/apps/CaiJiXia/cjx.js"></script>
+<a class="bshareDiv" href="http://www.bshare.cn/share">分享按钮</a><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#uuid=&style=3&fs=4&textcolor=#fff&bgcolor=#F60&text=分享到"></script>
+</div>
+</div>
+<!--footer end -->
+<div style="margin: 0px -149px 0px 0px; top: 53.3333px; right: 0px; position: fixed; z-index: 100000000;" id="cshareF">
+        <div style="width:28px;" class="cshareF2">
+            <div style="float:right;" id="cshareF3">
+                <table cellpadding="0" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td style="vertical-align:middle;">
+                                <div>
+                                    <b class="cs-xtop"><b class="cs-xb1"></b><b class="cs-xb2"></b><b class="cs-xb3"></b><b class="cs-xb4"></b></b><div style="font:1em/normal Helvetica,Calibri,Tahoma,Arial,宋体,sans-serif;padding:10px 0;width:28px;color:#fff;background: #0f0;" id="csFloatTab">
+                                        <div style="margin:0px 6px;height:20px;text-align:center;line-height:20px;font-size:16px;font-weight:bold;">联</div>
+                                        <div style="margin:0px 6px;height:20px;text-align:center;line-height:20px;font-size:16px;font-weight:bold;">系</div>
+                                        <div style="margin:0px 6px;height:20px;text-align:center;line-height:20px;font-size:16px;font-weight:bold;">客</div>
+                                        <div style="margin:0px 6px;height:20px;text-align:center;line-height:20px;font-size:16px;font-weight:bold;">服</div>
+                                    </div><b class="cs-xbottom"><b class="cs-xb4"></b><b class="cs-xb3"></b><b class="cs-xb2"></b><b class="cs-xb1"></b></b>
+                                </div>
+                            </td>
+                            <td>
+                                <div id="csPa                     </div>
+                                        <div class="bsClear"></div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="csClear"></div>
+        </div>
+</div>
+    <script type="text/javascript">
+        $('#csFloatTab').mouseenter(function() {
+            var r = parseInt($('#cshareF').css('right').replace('px', ''));
+            if (r == 0) {
+                $('#cshareF').stop();
+                $('#cshareF').animate({ right: 143 }, 100);
+            }
+        });
+        $('#cshareF').mouseleave(function() {
+            var r = parseInt($('#cshareF').css('right').replace('px', ''));
+            if (r == 143) {
+                $('#cshareF').stop();
+                $('#cshareF').animate({ right: 0 }, 100);
+            }
+        });
+        $(document).everyTime(1000, 'kkmap', function() {
+            if ($('#bsFloatTab').length > 0) {
+                if (!$.browser.msie || $.browser.version >= "7.0") {
+                    $('#cshareF').css('top', $('#bshareF').position().top - 60);
+                }
+                $('#cshareF').show();
+                $('#bsFloatTab').mouseenter(function() {
+                    $(document).stopTime('kkmap2');
+                    $('#cshareF').css('zIndex', 100000000);
+                });
+                $('#bshareF').mouseleave(function() {
+                    $(document).oneTime(150, 'kkmap2', function() {
+                        var r = parseInt($('#bshareF').css('right').replace('px', ''));
+                        if (r == 0) {
+                            $('#cshareF').css('zIndex', 100000001);
+                        }
+                    });
+                });
+                $(document).stopTime('kkmap');
+            }
+        });       
+    </script>
+
+
+
+
+
+
+
+</div>
+<script type="text/javascript" src="/templets/shuangyu/js/TabShow.js"></script>
+<script type="text/javascript">
+window.onerror=function(){return true;}
+</script>
+
+</body></html>
+<!--
+Powered By www.guangshanban.com
+-->

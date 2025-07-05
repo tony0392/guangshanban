@@ -1,0 +1,88 @@
+﻿<!--footer start-->
+<div id="footer">
+<div class="inner">
+<div class="BottomNav">
+<a href="{dede:global.cfg_basehost/}">网站首页</a> | 
+{dede:channel row='4'  type='son' typeid='1'  }
+<a href="[field:typelink/]">[field:typename/]</a> | 
+{/dede:channel}
+</div>
+<div class="HeightTab"></div>
+<p><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1274973108'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/stat.php%3Fid%3D1274973108%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>Copyright 2020 <a href="" target="_blank">www.guangshanban.com</a>  All Rights Reserved </p>
+<p>Address:河南省鹤壁市淇滨区卫河路与东海路交叉口（深圳）电子工业园区3号楼</p>
+<p>Tel:+86-17737582757 E-Mail:tonyzhjf@gmail.com</p>
+<p>Built By <a href="/en" target="_blank">光栅板 </a>   </p>
+{dede:robot copyright="qjpemail"/}
+<a class="bshareDiv" href="http://www.bshare.cn/share">分享按钮</a><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#uuid=&style=3&fs=4&textcolor=#fff&bgcolor=#F60&text=分享到"></script>
+</div>
+</div>
+<!--footer end -->
+<div style="margin: 0px -149px 0px 0px; top: 53.3333px; right: 0px; position: fixed; z-index: 100000000;" id="cshareF">
+        <div style="width:28px;" class="cshareF2">
+            <div style="float:right;" id="cshareF3">
+                <table cellpadding="0" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td style="vertical-align:middle;">
+                                <div>
+                                    <b class="cs-xtop"><b class="cs-xb1"></b><b class="cs-xb2"></b><b class="cs-xb3"></b><b class="cs-xb4"></b></b><div style="font:1em/normal Helvetica,Calibri,Tahoma,Arial,宋体,sans-serif;padding:10px 0;width:28px;color:#fff;background: #0f0;" id="csFloatTab">
+                                        <div style="margin:0px 6px;height:20px;text-align:center;line-height:20px;font-size:16px;font-weight:bold;">联</div>
+                                        <div style="margin:0px 6px;height:20px;text-align:center;line-height:20px;font-size:16px;font-weight:bold;">系</div>
+                                        <div style="margin:0px 6px;height:20px;text-align:center;line-height:20px;font-size:16px;font-weight:bold;">客</div>
+                                        <div style="margin:0px 6px;height:20px;text-align:center;line-height:20px;font-size:16px;font-weight:bold;">服</div>
+                                    </div><b class="cs-xbottom"><b class="cs-xb4"></b><b class="cs-xb3"></b><b class="cs-xb2"></b><b class="cs-xb1"></b></b>
+                                </div>
+                            </td>
+                            <td>
+                                <div id="csPa                     </div>
+                                        <div class="bsClear"></div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="csClear"></div>
+        </div>
+</div>
+    <script type="text/javascript">
+        $('#csFloatTab').mouseenter(function() {
+            var r = parseInt($('#cshareF').css('right').replace('px', ''));
+            if (r == 0) {
+                $('#cshareF').stop();
+                $('#cshareF').animate({ right: 143 }, 100);
+            }
+        });
+        $('#cshareF').mouseleave(function() {
+            var r = parseInt($('#cshareF').css('right').replace('px', ''));
+            if (r == 143) {
+                $('#cshareF').stop();
+                $('#cshareF').animate({ right: 0 }, 100);
+            }
+        });
+        $(document).everyTime(1000, 'kkmap', function() {
+            if ($('#bsFloatTab').length > 0) {
+                if (!$.browser.msie || $.browser.version >= "7.0") {
+                    $('#cshareF').css('top', $('#bshareF').position().top - 60);
+                }
+                $('#cshareF').show();
+                $('#bsFloatTab').mouseenter(function() {
+                    $(document).stopTime('kkmap2');
+                    $('#cshareF').css('zIndex', 100000000);
+                });
+                $('#bshareF').mouseleave(function() {
+                    $(document).oneTime(150, 'kkmap2', function() {
+                        var r = parseInt($('#bshareF').css('right').replace('px', ''));
+                        if (r == 0) {
+                            $('#cshareF').css('zIndex', 100000001);
+                        }
+                    });
+                });
+                $(document).stopTime('kkmap');
+            }
+        });       
+    </script>
+
+
+

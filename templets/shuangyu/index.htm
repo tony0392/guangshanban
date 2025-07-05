@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link href="{dede:global.cfg_templets_skin/}/style/style.css" rel="stylesheet" type="text/css">
+<link href="{dede:global.cfg_templets_skin/}/style/common.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/iepngfix_tilebg.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery-1.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/lang.js"></script>
+</head>
+
+<body>
+{dede:include filename="head.html"/}
+<div id="wrapper">
+
+<!--head start-->
+<div id="head">
+
+<!--focus start-->
+<div id="FocusBG">
+<div id="Focus">
+
+<div class="flashnews">
+   <!-- size: 980px * 300px -->
+   <script language='javascript'>
+linkarr = new Array();
+picarr = new Array();
+textarr = new Array();
+var swf_width=980;
+var swf_height=300;
+//文字颜色|文字位置|文字背景颜色|文字背景透明度|按键文字颜色|按键默认颜色|按键当前颜色|自动播放时间|图片过渡效果|是否显示按钮|打开方式
+var configtg='0xffffff|2|0x3FA61F|5|0xffffff|0xC5DDBC|0x000033|2|3|1|_blank';
+var files = "";
+var links = "";
+var texts = "";
+//这里设置调用标记
+{dede:arclist flag='f' row='5' typeid='9'  }
+linkarr[[field:global.autoindex/]] = "[field:arcurl/]";
+picarr[[field:global.autoindex/]]  = "[field:litpic/]";
+textarr[[field:global.autoindex/]] = "";
+{/dede:arclist}
+for(i=1;i<picarr.length;i++){
+if(files=="") files = picarr[i].replace("-lp","");
+else files += "|"+picarr[i].replace("-lp","");
+}
+for(i=1;i<linkarr.length;i++){
+if(links=="") links = linkarr[i];
+else links += "|"+linkarr[i];
+}
+for(i=1;i<textarr.length;i++){
+if(texts=="") texts = textarr[i];
+else texts += "|"+textarr[i];
+}
+document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ swf_width +'" height="'+ swf_height +'">');
+document.write('<param name="movie" value="{dede:global.cfg_templeturl /}/default/images/bcastr3.swf"><param name="quality" value="high">');
+document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+document.write('<param name="FlashVars" value="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'&bcastr_config='+configtg+'">');
+document.write('<embed src="{dede:global.cfg_templeturl /}/default/images/bcastr3.swf" wmode="opaque" FlashVars="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'&bcastr_config='+configtg+'&menu="false" quality="high" width="'+ swf_width +'" height="'+ swf_height +'" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />'); document.write('</object>');
+</script>
+  </div>
+
+</div>
+</div>
+<!--foncus end-->
+<div class="HeightTab clearfix"></div>
+
+</div>
+<!--head end-->
+<!--body start-->
+<div id="body">
+<!--MainBlock start-->
+<div class="MainBlock">
+<!--left start-->
+<div class="right">
+<div class="topic">
+<div class="TopicTitle"><a href="{dede:type typeid="3"}[field:typeurl /]{/dede:type}">{dede:type typeid="3"}[field:typename /]{/dede:type}</a></div>
+<div class="TopicMore"> <a href="{dede:global.cfg_basehost/}/cn/About"><img src="{dede:global.cfg_templets_skin/}/images/more.png"></a></div>
+</div>
+<div class="img"><a href="{dede:type typeid="3"}[field:typeurl /]{/dede:type}" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images/sinokin.jpg" alt="光栅板生产厂家-3D光栅画制作-立体技术培训" height="100" width="200"></a></div><div class="txt ColorLink"><p>
+　　{dede:global.about/}<a href="{dede:type typeid="3"}[field:typeurl /]{/dede:type}" target="_blank">详细>></a></p></div>
+<div class=" clearfix"></div>
+
+</div>
+<!--left end-->
+<div class="WidthTab2"></div>
+
+<!--right start-->
+<div class="left">
+<div class="TabBlock">
+<div class="menu">
+<ul>
+<li class="Tabs1"><a class="tab1" onmousemove="easytabs(1, 1);" onfocus="easytabs(1, 1);" title="{dede:type typeid="3"}[field:typename /]{/dede:type}" id="tablink1" href="{dede:type typeid="3"}[field:typeurl /]{/dede:type}">{dede:type typeid="3"}[field:typename /]{/dede:type}</a></li> 
+ 
+</ul>
+</div>
+<div style=" id="tabcontent1  "><table class="MBlockTable" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody >
+<p style="text-indent:3em;font-size:17px;">光栅板 光栅立体画厂家 立体广告画价格 3D装饰画批发 中堂画 立体婚纱 立体全景画 三维立体画制作 光栅材料厂家 3D立体光栅板材 3D立体画制作技术、设计、培训 3D立体科技 立体摄影器材 立体显示器 大型立体广告材料光栅板材 广州立体材料 立体光栅板材厂 立体广告材料 裸眼3D广告画</p>
+<p style="text-indent:3em;font-size:17px;">河南省卓特立体科技有限公司是国内外较早从事立体成像技术开发的单位之一,拥有柱镜光栅国家专利。是一家研究开发生产立体光栅材料的专业公司，产品有:1.2m*2.4m和2m*3m的18(变)线、25 线、32线、42线光栅板。</p>
+</tbody>
+</table>
+</div> 
+
+
+
+</div>
+</div>
+<!--right end-->
+
+<!--right2 start-->
+<div class="right2">
+<div class="topic">
+<div class="TopicTitle">公司优势</div>
+<div class="TopicMore"></div>
+</div>
+<div class="img">
+<p style="font-size:17px;">1、专业光栅板生产制造厂家。</p>
+<p style="font-size:17px;">2、拥有强大的制画技术人才。</p>
+<p style="font-size:17px;">3、生产的光栅板数据稳定。</p>
+<p style="font-size:17px;">4、透光高,韧性强,聚焦好。</p>
+<p style="font-size:17px;">5、生产光栅板适用范围广,3D立体画,变画效果栩栩如生。</p>
+</div>
+<div class=" clearfix"></div>
+</div>
+<!--right2 end-->
+<div class="clearfix"></div>
+</div>
+<!--MainBlock end-->
+
+<div class="HeightTab clearfix"></div>
+<!--ProductShow start-->
+<div class="ProductShow">
+<div class="topic">
+<div class="TopicTitle"> 公司产品</div>
+<div class="TopicMore"> <a href="{dede:type typeid="4"}[field:typeurl /]{/dede:type}"><img src="{dede:global.cfg_templets_skin/}/images/more.png"></a></div>
+</div>
+<div class="hjnavC">
+<div class="hjnavleft">
+<ul>
+{dede:channel row='1'  type='son' typeid='4'  }
+<li><a href="[field:typelink/]">[field:typename/]</a></li> 
+{/dede:channel}  
+  </ul>
+  </div>
+<div class="hjnavcn">
+<div  class="hjone">
+{dede:arclist row='4' titlelen='24' typeid='4'       }
+<div class="albumblock"><div class="inner">
+<a href="[field:arcurl/]" target="_blank" title="[field:title/]"><img src="[field:picname/]" height="166" width="166"><div class="albumtitle">[field:title/]</div></a>
+</div></div>
+{/dede:arclist}
+</div> 
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+<iframe height=600 width=980 src='http://player.youku.com/embed/XMzkyNzk4NjEwOA==' frameborder=0 'allowfullscreen'></iframe>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/h.js"></script>
+<!--ProductShow end-->
+<div class="HeightTab clearfix"></div>
+<!--links start-->
+<div id="Links">
+<span> </span>
+<li><a>友情链接：</a></li>
+		{dede:flink/}
+
+</div>
+<!--links end-->
+
+</div>
+<!--body end-->
+<div class="HeightTab clearfix"></div>
+
+
+{dede:include filename="foot.html"/}
+
+
+
+</div>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/TabShow.js"></script>
+<script type="text/javascript">
+window.onerror=function(){return true;}
+</script>
+
+</body></html>
+<!--
+Powered By www.guangshanban.com
+-->

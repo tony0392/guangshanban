@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:global.cfg_en_webname/}</title>
+<meta name="description" content="{dede:global.cfg_en_description/}" />
+<meta name="keywords" content="{dede:global.cfg_en_keywords/}" />
+<link href="{dede:global.cfg_templets_skin/}/style/style.css" rel="stylesheet" type="text/css">
+<link href="{dede:global.cfg_templets_skin/}/style/common.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/iepngfix_tilebg.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+
+<!--head start-->
+<div id="head">
+{dede:include filename="en_head.html"/}
+<!--focus start-->
+<div id="FocusBG">
+<div id="Focus">
+
+<div class="flashnews">
+   <!-- size: 980px * 300px -->
+   <script language='javascript'>
+linkarr = new Array();
+picarr = new Array();
+textarr = new Array();
+var swf_width=980;
+var swf_height=300;
+//文字颜色|文字位置|文字背景颜色|文字背景透明度|按键文字颜色|按键默认颜色|按键当前颜色|自动播放时间|图片过渡效果|是否显示按钮|打开方式
+var configtg='0xffffff|0|0x3FA61F|5|0xffffff|0xC5DDBC|0x000033|2|3|1|_blank';
+var files = "";
+var links = "";
+var texts = "";
+//这里设置调用标记
+{dede:arclist flag='f' row='5' typeid='10'  }
+linkarr[[field:global.autoindex/]] = "[field:arcurl/]";
+picarr[[field:global.autoindex/]]  = "[field:litpic/]";
+{/dede:arclist}
+for(i=1;i<picarr.length;i++){
+if(files=="") files = picarr[i].replace("-lp","");
+else files += "|"+picarr[i].replace("-lp","");
+}
+for(i=1;i<linkarr.length;i++){
+if(links=="") links = linkarr[i];
+else links += "|"+linkarr[i];
+}
+for(i=1;i<textarr.length;i++){
+if(texts=="") texts = textarr[i];
+else texts += "|"+textarr[i];
+}
+document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ swf_width +'" height="'+ swf_height +'">');
+document.write('<param name="movie" value="{dede:global.cfg_templeturl /}/default/images/bcastr3.swf"><param name="quality" value="high">');
+document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+document.write('<param name="FlashVars" value="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'&bcastr_config='+configtg+'">');
+document.write('<embed src="{dede:global.cfg_templeturl /}/default/images/bcastr3.swf" wmode="opaque" FlashVars="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'&bcastr_config='+configtg+'&menu="false" quality="high" width="'+ swf_width +'" height="'+ swf_height +'" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />'); document.write('</object>');
+</script>
+  </div>
+
+</div>
+</div>
+<!--foncus end-->
+<div class="HeightTab clearfix"></div>
+
+</div>
+<!--head end-->
+<!--body start-->
+<div id="body">
+<!--MainBlock start-->
+<div class="MainBlock">
+<!--left start-->
+<div class="right">
+<div class="topic">
+<div class="TopicTitle"><a href="{dede:global.cfg_basehost/}/en/About">About</a></div>
+<div class="TopicMore"> <a href="{dede:global.cfg_basehost/}/en/About"><img src="{dede:global.cfg_templets_skin/}/images/more.png"></a></div>
+</div>
+<div class="img"><a href="{dede:global.cfg_basehost/}/en/About" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images/sinokin.jpg" alt="About" height="100" width="200"></a></div><div class="txt ColorLink"><p>
+　　{dede:global.en_about/}<a href="{dede:global.cfg_basehost/}/en/About" target="_blank">Details>></a></p></div>
+<div class=" clearfix"></div>
+
+</div>
+<!--left end-->
+<div class="WidthTab2"></div>
+
+<!--right start-->
+<div class="left">
+<div class="TabBlock">
+<div class="menu">
+<ul>
+<li class="Tabs1"><a class="tab1" onmousemove="easytabs(1, 1);" onfocus="easytabs(1, 1);" title="{dede:type typeid="6"}[field:typename /]{/dede:type}" id="tablink1" href="{dede:type typeid="6"}[field:typeurl /]{/dede:type}">{dede:type typeid="6"}[field:typename /]{/dede:type}</a></li>  
+</ul>
+</div>
+<div style=" id="tabcontent1  "><table class="MBlockTable" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<p style="text-indent:3em;font-size:13px;"> We manufacture lenticular pictures,lenticular printing,lenticualr lenses sheet,lenticular poster, lenticular sheet (LPI 3D25, 18, 32, 3D42) for sale.Lenticular pictures are digital files that have been specially prepared and then printed onto a lens material.We manufacture lenticular sheet made of GPPS,acrylic resins.LPIs (Lens Per Inch) of the large format lenticular sheet range from 12 LPI up to 42 LPI.  We currently offer 5 LPI varieties of large format lenticular sheet (12, 3D25, 18, 32, 3D42) to cover most imaging applications.</p>
+<p style="text-indent:3em;font-size:13px;">All of our lenticular sheets are manufactured in China under strict manufacturing procedures.Our standard lenticular sheet sizes range from 47.24 inches x 94.49 inches up to 78.74 inches wide by 118.11 inches high.</p>
+</tbody>
+</table>
+</div> 
+
+</div>
+</div>
+<!--right end-->
+
+<!--right2 start-->
+<div class="right2">
+<div class="topic">
+<div class="TopicTitle">The company advantage</div>
+<div class="TopicMore"></div>
+</div>
+<div class="img">
+<p style="font-size:13px;">1、Professional lenticular sheets manufacurer</p>
+<p style="font-size:13px;">2、Lenticular Painting talent powerful.</p>
+<p style="font-size:13px;">3、Lenticular lenses sheet data stable</p>
+<p style="font-size:13px;">4、High light transmission,strong toughness,good focus</p>
+<p style="font-size:13px;">5、Wide range of panels,lifelike 3D paintings</p>
+</div>
+<div class=" clearfix"></div>
+</div>
+<!--right2 end-->
+<div class="clearfix"></div>
+
+</div>
+<!--MainBlock end-->
+
+<div class="HeightTab clearfix"></div>
+<!--ProductShow start-->
+<div class="ProductShow">
+<div class="topic">
+<div class="TopicTitle">Product</div>
+<div class="TopicMore"> <a href="{dede:global.cfg_basehost/}/en/Product"><img src="{dede:global.cfg_templets_skin/}/images/more.png"></a></div>
+</div>
+<div class="hjnavC">
+<div class="hjnavleft">
+<ul>
+{dede:channel row='1'  type='son' typeid='7'  }
+<li><a href="[field:typelink/]">[field:typename/]</a></li> 
+{/dede:channel}  
+  </ul>
+  </div>
+<div class="hjnavcn">
+
+<div class="hjone">
+{dede:arclist row='4' titlelen='24' typeid='7'       }
+<div class="albumblock"><div class="inner">
+<a href="[field:arcurl/]" target="_blank" title="[field:title/]"><img src="[field:picname/]" height="166" width="166"><div class="albumtitle">[field:title/]</div></a>
+</div></div>
+{/dede:arclist}
+</div> 
+<iframe height=600 width=980 src='http://player.youku.com/embed/XMzkyNzk4NjEwOA==' frameborder=0 'allowfullscreen'></iframe>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/h.js"></script>
+<!--ProductShow end-->
+<div class="HeightTab clearfix"></div>
+<!--links start-->
+<div id="Links">
+<span> </span>
+<li><a>Friendly Links:</a></li>
+		{dede:flink/}
+</div>
+<!--links end-->
+
+</div>
+<!--body end-->
+<div class="HeightTab clearfix"></div>
+
+
+{dede:include filename="en_foot.html"/}
+
+
+
+</div>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/TabShow.js"></script>
+<script type="text/javascript">
+window.onerror=function(){return true;}
+</script>
+
+
+</body></html>
+<!--
+Powered By http://www.guangshanban.com/en/   
+-->

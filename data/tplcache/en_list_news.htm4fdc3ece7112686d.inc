@@ -1,0 +1,47 @@
+<?php
+$z[0]=Array("global","",257,286);
+$z[0][4]['name']="cfg_en_webname";
+$z[1]=Array("global","",330,363);
+$z[1][4]['name']="cfg_en_description";
+$z[2]=Array("global","",400,430);
+$z[2][4]['name']="cfg_en_keywords";
+$z[3]=Array("global","",448,480);
+$z[3][4]['name']="cfg_templets_skin";
+$z[4]=Array("global","",545,577);
+$z[4][4]['name']="cfg_templets_skin";
+$z[5]=Array("global","",667,699);
+$z[5][4]['name']="cfg_templets_skin";
+$z[6]=Array("include","",811,850);
+$z[6][4]['filename']="en_head.html";
+$z[7]=Array("type"," \r\n<li><a href=\"[field:typelink/]\">[field:typename/]</a></li> \r\n",1185,1284);
+$z[7][4]['typeid']="10";
+$z[8]=Array("arclist","\r\n<dd><a href=\"[field:arcurl/]\" target=\"_blank\" title=\"[field:title/]\">[field:title/]</a></dd>\r\n",1435,1612);
+$z[8][4]['row']="8";
+$z[8][4]['titlelen']="28";
+$z[8][4]['typeid']="2";
+$z[8][4]['orderby']="id";
+$z[9]=Array("global","",1765,1789);
+$z[9][4]['name']="en_lianxi";
+$z[10]=Array("global","",1811,1838);
+$z[10][4]['name']="cfg_basehost";
+$z[11]=Array("global","",1859,1886);
+$z[11][4]['name']="cfg_basehost";
+$z[12]=Array("global","",1997,2029);
+$z[12][4]['name']="cfg_templets_skin";
+$z[13]=Array("global","",2157,2189);
+$z[13][4]['name']="cfg_templets_skin";
+$z[14]=Array("global","",2401,2426);
+$z[14][4]['name']="cfg_cmsurl";
+$z[15]=Array("field","\r\n            \$b = array(\"主页\");\r\n            \$c = array(\"HOME\");\r\n            @me=str_replace(\$b,\$c,@me);\r\n        ",2826,2999);
+$z[15][4]['name']="position";
+$z[15][4]['runphp']="yes";
+$z[16]=Array("list"," \r\n<tr><td class=\"fw_t\" width=\"75%\">·<a href=\"[field:arcurl/]\" target=\"_blank\">[field:title/]</a></td><td class=\"fw_s\" width=\"25%\">[[field:pubdate function=\"GetDateTimeMK(@me)\" /]]</td></tr>\r\n ",3212,3443);
+$z[16][4]['pagesize']="10";
+$z[17]=Array("pagelist","",3612,3704);
+$z[17][4]['listitem']="index,pre,next,end,pageno,option,info";
+$z[17][4]['pagelang']="en";
+$z[17][4]['listsize']="2";
+$z[18]=Array("include","",3874,3913);
+$z[18][4]['filename']="en_foot.html";
+
+?>

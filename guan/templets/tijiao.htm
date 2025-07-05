@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $cfg_soft_lang; ?>">
+<title>百度主动推送插件</title>
+<link href="css/base.css" rel="stylesheet" type="text/css" />
+</head>
+<body background="images/allbg.gif" leftmargin="8" topmargin="8">
+<table width="98%" border="0" align="center" cellpadding="4" cellspacing="1" class="tbtitle" style="background:#CFCFCF;">
+  <tr>
+    <td bgcolor="#EDF9D5" colspan="2" background='images/tbg.gif' style="padding-left:10px;">
+    	<strong>百度主动推送插件</strong>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF" colspan="2">
+      <p>百度主动推送:最为快速的提交方式，建议您将站点当天新产出链接立即通过此方式推送给百度，以保证新链接可以及时被百度收录。</p>
+      <p>工具详情参见:<a href="http://zhanzhang.baidu.com/linksubmit/index" target="_blank" style="color:red">http://zhanzhang.baidu.com/linksubmit/index</a></p>
+      <p>接口地址<b style="color:red">(必须修改)</b>以及推送数量<b style="color:red">(最多50,需要增加联系QQ80035126)</b>参数在:【<a href="sys_info.php" style="color:red">系统设置</a> - 其他选项 - 百度提交接口】中调整</p>
+      <p>温馨提示:只适用于文章频道，数据表为默认的数据才能生效,有问题请联系QQ80035126</p> 
+	   <p>推送反馈结果参考:<a href=" http://zhanzhang.baidu.com/college/courseinfo?id=267&page=2#h2_article_title12" target="_blank" style="color:red">点这里就能看到推送反馈参考数据</a></p>
+	
+	  </td>
+  </tr>
+  <form id="form2" name="form1" method="post" action="?do=yes" target="stafrm">
+  <tr>
+    <td colspan="2" bgcolor="#F9FCEF">&nbsp;<b>百度主动推送设置：</b></td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF">&nbsp;<b>生成文件地址(根目录)：</b></td>
+    <td bgcolor="#FFFFFF">&nbsp;
+      <input name="filename" type="text" id="textfield" value="url.txt" size="30" class='alltxt' />
+     </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" bgcolor="#FFFFFF">
+    	<input name="button" type="submit" class="np coolbg" id="button" value="开始提交" />
+    </td>
+  </tr>
+</form>
+  <tr>
+    <td bgcolor="#F9FCEF" colspan="2">&nbsp;<b>推送结果反馈(<a href=" http://zhanzhang.baidu.com/college/courseinfo?id=267&page=2#h2_article_title12" target="_blank" style="color:red">结果数据参考</a>)：</b></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#FFFFFF" colspan="2">
+    	<iframe name="stafrm" frameborder="0" id="stafrm" width="96%" height="350px" />
+    </td>
+  </tr>
+</table>
+</body>
+</html>

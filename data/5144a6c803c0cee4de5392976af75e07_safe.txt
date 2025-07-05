@@ -1,0 +1,1 @@
+101.227.1.203||/plus/en_search.php?q=Input%20Keywords;%20SELECT%20SLEEP(5)||SELECT spwords FROM `dede_search_keywords` WHERE keyword='Input Keywords; SELECT SLEEP(5)' LIMIT 0,1;||SelectBreak

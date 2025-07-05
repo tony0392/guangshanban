@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $cfg_soft_lang; ?>">
+<title>自动审核设置</title>
+<script language="javascript" src="http://mat1.gtimg.com/www/js/tcomment/jquery-1.6.2.min.js"></script>
+<link href="css/base.css" rel="stylesheet" type="text/css">
+</head>
+<body background='images/allbg.gif' leftmargin='8' topmargin='8'>
+<table width="98%" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#D6D6D6">
+  <tr>
+    <td height="28" background="images/tbg.gif" style="padding-left:10px;"><b>自动审核设置</b>&gt;&gt;</td>
+</tr>
+<tr>
+    <td height="200" bgcolor="#FFFFFF" valign="top">
+	<form name="form1" method="post" action="dede_auto.php">
+	<input type="hidden" name="dopost" value="autosave">
+	    <table width="100%" border="0" cellspacing="4" cellpadding="4">
+ 
+       
+		<tr> 
+          <td  width="15%" align="center">是否开启自动审核：</td>
+          <td width="85%"> <input name="start" type="radio" class="np" value="1" <?php if($row['start']==1) echo " checked"; ?>>
+            是 　 
+              <input type="radio" name="start" class="np" value="0" <?php if($row['start']==0) echo " checked"; ?>>
+              否</td>
+        </tr>
+		<tr> 
+          <td align="center">自动审核是否提示：</td>
+          <td> <input name="tip" type="radio" class="np" value="1" <?php if($row['tip']==1) echo " checked"; ?>>
+            是 　 
+              <input type="radio" name="tip" class="np" value="0" <?php if($row['tip']==0) echo " checked"; ?>>
+              否</td>
+        </tr>
+        	<tr> 
+          <td align="center">自动审核是否记录：</td>
+          <td> <input name="log" type="radio" class="np" value="1" <?php if($row['log']==1) echo " checked"; ?>>
+            是 　 
+              <input type="radio" name="log" class="np" value="0" <?php if($row['log']==0) echo " checked"; ?>>
+              否</td>
+        </tr>
+        	<tr> 
+          <td align="center">可审核时段审核：</td>
+          <td>
+          <input class='np' type='checkbox' name='ktime[0]' value='0' <?php if($row['ktime'][0]==0) echo " checked"; ?>>[0]点
+          <input class='np' type='checkbox' name='ktime[1]' value='1' <?php if($row['ktime'][1]==1) echo " checked"; ?>>[1]点
+          <input class='np' type='checkbox' name='ktime[2]' value='2' <?php if($row['ktime'][2]==2) echo " checked"; ?>>[2]点
+          <input class='np' type='checkbox' name='ktime[3]' value='3' <?php if($row['ktime'][3]==3) echo " checked"; ?>>[3]点
+          <input class='np' type='checkbox' name='ktime[4]' value='4' <?php if($row['ktime'][4]==4) echo " checked"; ?>>[4]点
+          <input class='np' type='checkbox' name='ktime[5]' value='5' <?php if($row['ktime'][5]==5) echo " checked"; ?>>[5]点
+          <input class='np' type='checkbox' name='ktime[6]' value='6' <?php if($row['ktime'][6]==6) echo " checked"; ?>>[6]点<br>
+          <input class='np' type='checkbox' name='ktime[7]' value='7' <?php if($row['ktime'][7]==7) echo " checked"; ?>>[7]点
+          <input class='np' type='checkbox' name='ktime[8]' value='8' <?php if($row['ktime'][8]==8) echo " checked"; ?>>[8]点
+          <input class='np' type='checkbox' name='ktime[9]' value='9' <?php if($row['ktime'][9]==9) echo " checked"; ?>>[9]点
+          <input class='np' type='checkbox' name='ktime[10]' value='10' <?php if($row['ktime'][10]==10) echo " checked"; ?>>[10]点
+          <input class='np' type='checkbox' name='ktime[11]' value='11' <?php if($row['ktime'][11]==11) echo " checked"; ?>>[11]点
+          <input class='np' type='checkbox' name='ktime[12]' value='12' <?php if($row['ktime'][12]==12) echo " checked"; ?>>[12]点<br>
+          <input class='np' type='checkbox' name='ktime[13]' value='13' <?php if($row['ktime'][13]==13) echo " checked"; ?>>[13]点
+          <input class='np' type='checkbox' name='ktime[14]' value='14' <?php if($row['ktime'][14]==14) echo " checked"; ?>>[14]点
+          <input class='np' type='checkbox' name='ktime[15]' value='15' <?php if($row['ktime'][15]==15) echo " checked"; ?>>[15]点
+          <input class='np' type='checkbox' name='ktime[16]' value='16' <?php if($row['ktime'][16]==16) echo " checked"; ?>>[16]点
+          <input class='np' type='checkbox' name='ktime[17]' value='17' <?php if($row['ktime'][17]==17) echo " checked"; ?>>[17]点
+          <input class='np' type='checkbox' name='ktime[18]' value='18' <?php if($row['ktime'][18]==18) echo " checked"; ?>>[18]点<br>
+          <input class='np' type='checkbox' name='ktime[19]' value='19' <?php if($row['ktime'][19]==19) echo " checked"; ?>>[19]点
+          <input class='np' type='checkbox' name='ktime[20]' value='20' <?php if($row['ktime'][20]==20) echo " checked"; ?>>[20]点
+          <input class='np' type='checkbox' name='ktime[21]' value='21' <?php if($row['ktime'][21]==21) echo " checked"; ?>>[21]点
+          <input class='np' type='checkbox' name='ktime[22]' value='22' <?php if($row['ktime'][22]==22) echo " checked"; ?>>[22]点
+          <input class='np' type='checkbox' name='ktime[23]' value='23' <?php if($row['ktime'][23]==23) echo " checked"; ?>>[23]点
+          </td>
+        </tr>
+        	<tr> 
+          <td align="center">请选择要审核的栏目：</td>
+          <td>
+            <?php 
+  foreach ($type as $key=>$value)
+{
+if($value['id']==$row['type'][$key]){
+$check="checked";
+}else{$check="";}
+echo "<input class='np type' type='checkbox' name='type[".$key."]' value='".$value['id']."' ".$check.">".$value['typename'];
+}
+
+  ?>
+          
+  
+          </td>
+        </tr>
+   <tr> 
+          <td align="center">自动审核时间间隔：</td>
+          <td><input name="otime" type="text" value="<?php echo $row['otime'] ?>" class="spec" >
+            (以秒为单位，多少秒才会运行一次)</td>
+        </tr>
+           <tr> 
+          <td align="center">每天最多审核X编：</td>
+          <td><input name="wnum" type="text" value="<?php echo $row['wnum'] ?>" class="spec" >
+            (某天审核的最大编数)</td>
+        </tr>
+         <tr> 
+          <td align="center">栏目HTML更新深度：</td>
+          <td><input name="htmlnum" type="text" value="<?php echo $row['htmlnum'] ?>" class="spec" >
+            (HTML更新深度是指更新栏目HTML的分页数)</td>
+        </tr>
+          <tr> 
+            <td height="47">&nbsp;</td>
+            <td><input type="submit" name="Submit" id="Submit" value="保存自动审核数据"></td>
+          </tr>
+        
+           <tr> 
+          <td align="center">一键配置：</td>
+          <td><input type="button" name="button" id="rest" value="一键配置">
+            (点击一键配置后自动配置|配置好不要使用)</td>
+        </tr>
+        </table>
+	  </form>
+	  </td>
+</tr>
+</table>
+今天审核:<br>
+<table width="98%" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#D6D6D6">
+  <tr>
+  <td>
+  <?php 
+  foreach ($info as $key=>$value)
+{
+echo ' <a href="'.$value.'" target="_blank">'.$value.'</a>';
+echo "<br >";
+}
+
+  ?>
+  </td>
+  </tr></table>
+  <script>
+  $(document).ready(function(){
+  $("#rest").live("click",function() {
+  $("input[name=start]:eq(0)").attr("checked",'checked');
+  $("input[name=tip]:eq(0)").attr("checked",'checked');
+  $("input[name=log]:eq(0)").attr("checked",'checked');
+  for(i=0;i<24;i++){
+  $("input[name='ktime["+i+"]']").attr("checked",true);
+  }
+  $(".type").attr("checked",true);
+  $("input[name=otime]").val(600);
+  $("input[name=wnum]").val(5);
+  $("input[name=htmlnum]").val(2);
+  $("#Submit").click();
+  });  });  
+  </script>
+</body>
+</html>

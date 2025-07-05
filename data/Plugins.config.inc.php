@@ -1,0 +1,33 @@
+<?php
+$kw_autof = 'h,c,f,a,s,b,p';
+$kw_downpic = 1;
+$kw_ismake = 1;
+$kw_arcrank = 1;
+$kw_fy = 1;
+$kw_maxcount = 100;
+$kw_sort = 0;
+$kw_cforbid = '';
+$kw_lforbid = '';
+$kw_newadd = 0;
+$kw_percent = 100;
+$kw_autotitle = 0;
+$kw_autopara = 0;
+$kw_autoconfu = 0;
+$kw_relaword = '';
+$kw_autolink = 1;
+$kw_seocount = 5;
+$kw_seoword = '';
+$kw_relalink = '';
+$kw_ttf = 1;
+$kw_cron = '';
+$kw_kd = 1;
+$kw_maxbyte = 200;
+$kw_bdmap = 1;
+$kw_ggmap = 1;
+$kw_dwriter = '光栅板';
+$kw_dsource = '网络整理';
+$kw_tag = 1;
+$kw_tmax = '';
+$kw_ttis = 2;
+$kw_ttls = '';
+?>

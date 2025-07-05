@@ -1,0 +1,47 @@
+<?php
+$z[0]=Array("global","",257,283);
+$z[0][4]['name']="cfg_webname";
+$z[1]=Array("global","",327,357);
+$z[1][4]['name']="cfg_description";
+$z[2]=Array("global","",394,421);
+$z[2][4]['name']="cfg_keywords";
+$z[3]=Array("global","",439,471);
+$z[3][4]['name']="cfg_templets_skin";
+$z[4]=Array("global","",536,568);
+$z[4][4]['name']="cfg_templets_skin";
+$z[5]=Array("global","",658,690);
+$z[5][4]['name']="cfg_templets_skin";
+$z[6]=Array("global","",761,793);
+$z[6][4]['name']="cfg_templets_skin";
+$z[7]=Array("include","",900,936);
+$z[7][4]['filename']="head.html";
+$z[8]=Array("type","\r\n<li><a href=\"[field:typelink/]\">[field:typename/]</a></li> \r\n",1291,1388);
+$z[8][4]['typeid']="9";
+$z[9]=Array("arclist","\r\n<dd><a href=\"[field:arcurl/]\" target=\"_blank\" title=\"[field:title/]\">[field:title/]</a></dd>\r\n",1548,1725);
+$z[9][4]['row']="8";
+$z[9][4]['titlelen']="28";
+$z[9][4]['typeid']="1";
+$z[9][4]['orderby']="id";
+$z[10]=Array("global","",1893,1914);
+$z[10][4]['name']="lianxi";
+$z[11]=Array("global","",1937,1964);
+$z[11][4]['name']="cfg_basehost";
+$z[12]=Array("global","",1982,2009);
+$z[12][4]['name']="cfg_basehost";
+$z[13]=Array("global","",2118,2150);
+$z[13][4]['name']="cfg_templets_skin";
+$z[14]=Array("global","",2279,2311);
+$z[14][4]['name']="cfg_templets_skin";
+$z[15]=Array("global","",2535,2560);
+$z[15][4]['name']="cfg_cmsurl";
+$z[16]=Array("field","",2973,3002);
+$z[16][4]['name']="position";
+$z[17]=Array("list"," \r\n<tr><td class=\"fw_t\" width=\"75%\">·<a href=\"[field:arcurl/]\" target=\"_blank\">[field:title/]</a></td><td class=\"fw_s\" width=\"25%\">[[field:pubdate function=\"GetDateTimeMK(@me)\" /]]</td></tr>\r\n ",3215,3446);
+$z[17][4]['pagesize']="10";
+$z[18]=Array("pagelist","",3951,4029);
+$z[18][4]['listitem']="index,pre,next,end,pageno,option,info";
+$z[18][4]['listsize']="2";
+$z[19]=Array("include","",4199,4235);
+$z[19][4]['filename']="foot.html";
+
+?>

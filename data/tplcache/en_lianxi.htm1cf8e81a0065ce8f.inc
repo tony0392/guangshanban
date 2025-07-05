@@ -1,0 +1,43 @@
+<?php
+$z[0]=Array("global","",257,286);
+$z[0][4]['name']="cfg_en_webname";
+$z[1]=Array("global","",330,363);
+$z[1][4]['name']="cfg_en_description";
+$z[2]=Array("global","",400,430);
+$z[2][4]['name']="cfg_en_keywords";
+$z[3]=Array("global","",448,480);
+$z[3][4]['name']="cfg_templets_skin";
+$z[4]=Array("global","",545,577);
+$z[4][4]['name']="cfg_templets_skin";
+$z[5]=Array("global","",667,699);
+$z[5][4]['name']="cfg_templets_skin";
+$z[6]=Array("include","",1271,1310);
+$z[6][4]['filename']="en_head.html";
+$z[7]=Array("type"," \r\n<li><a href=\"[field:typelink/]\">[field:typename/]</a></li> \r\n",1646,1744);
+$z[7][4]['typeid']="8";
+$z[8]=Array("arclist","\r\n<dd><a href=\"[field:arcurl/]\" target=\"_blank\" title=\"[field:title/]\">[field:title/]</a></dd>\r\n",1895,2072);
+$z[8][4]['row']="8";
+$z[8][4]['titlelen']="28";
+$z[8][4]['typeid']="2";
+$z[8][4]['orderby']="id";
+$z[9]=Array("global","",2225,2249);
+$z[9][4]['name']="en_lianxi";
+$z[10]=Array("global","",2271,2298);
+$z[10][4]['name']="cfg_basehost";
+$z[11]=Array("global","",2319,2346);
+$z[11][4]['name']="cfg_basehost";
+$z[12]=Array("global","",2457,2489);
+$z[12][4]['name']="cfg_templets_skin";
+$z[13]=Array("global","",2617,2649);
+$z[13][4]['name']="cfg_templets_skin";
+$z[14]=Array("global","",2861,2886);
+$z[14][4]['name']="cfg_cmsurl";
+$z[15]=Array("field","\r\n            \$b = array(\"主页\");\r\n            \$c = array(\"HOME\");\r\n            @me=str_replace(\$b,\$c,@me);\r\n        ",3286,3459);
+$z[15][4]['name']="position";
+$z[15][4]['runphp']="yes";
+$z[16]=Array("field","",3640,3661);
+$z[16][4]['name']="content";
+$z[17]=Array("include","",3978,4017);
+$z[17][4]['filename']="en_foot.html";
+
+?>
